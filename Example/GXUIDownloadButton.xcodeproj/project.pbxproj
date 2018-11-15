@@ -12,7 +12,8 @@
 		C3495D44219D0C7100C99B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3495D42219D0C7100C99B8E /* Main.storyboard */; };
 		C3495D46219D0C7200C99B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3495D45219D0C7200C99B8E /* Assets.xcassets */; };
 		C3495D49219D0C7200C99B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3495D47219D0C7200C99B8E /* LaunchScreen.storyboard */; };
-		C3495D65219D12B100C99B8E /* GXUIDownloadButon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3495D64219D12B100C99B8E /* GXUIDownloadButon.swift */; };
+		C3495D69219D344A00C99B8E /* GXUIDownloadButon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3495D68219D344A00C99B8E /* GXUIDownloadButon.swift */; };
+		C3495D6B219D345F00C99B8E /* Timer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3495D6A219D345F00C99B8E /* Timer+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		C3495D45219D0C7200C99B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3495D48219D0C7200C99B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3495D4A219D0C7200C99B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3495D64219D12B100C99B8E /* GXUIDownloadButon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GXUIDownloadButon.swift; sourceTree = "<group>"; };
+		C3495D68219D344A00C99B8E /* GXUIDownloadButon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GXUIDownloadButon.swift; path = ../GXUIDownloadButton/Classes/GXUIDownloadButon.swift; sourceTree = "<group>"; };
+		C3495D6A219D345F00C99B8E /* Timer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Timer+Extensions.swift"; path = "../GXUIDownloadButton/Classes/Timer+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,17 +72,10 @@
 		C3495D50219D113800C99B8E /* GIXUIButton */ = {
 			isa = PBXGroup;
 			children = (
-				C3495D51219D116E00C99B8E /* Classes */,
+				C3495D68219D344A00C99B8E /* GXUIDownloadButon.swift */,
+				C3495D6A219D345F00C99B8E /* Timer+Extensions.swift */,
 			);
 			name = GIXUIButton;
-			sourceTree = "<group>";
-		};
-		C3495D51219D116E00C99B8E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C3495D64219D12B100C99B8E /* GXUIDownloadButon.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3495D41219D0C7100C99B8E /* ViewController.swift in Sources */,
+				C3495D6B219D345F00C99B8E /* Timer+Extensions.swift in Sources */,
 				C3495D3F219D0C7100C99B8E /* AppDelegate.swift in Sources */,
-				C3495D65219D12B100C99B8E /* GXUIDownloadButon.swift in Sources */,
+				C3495D69219D344A00C99B8E /* GXUIDownloadButon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
